@@ -29,13 +29,13 @@ def load():
     main()
 
 def printFunct():
-    print(array)
-    print(len(array))
+    print(*array)
+    print("There are " + str(len(array))+" Items in the array")
     main()
 
 def summ():
-    print(sum(array))
-    print(len(array))
+    print("The sum of the numbers is "+str(sum(array)))
+    print("There are " + str(len(array))+" Items in the array")
     main()
 
 def max():
